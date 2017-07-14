@@ -4,7 +4,10 @@ var returnedNumber = function(number) {
   if (number >= 1) {
     for (var i = 1; i <= number; i++) {
       var word = "";
-      if (i % 3 === 0) {
+      if (i % 15 === 0) {
+        word = "pingpong";
+      }
+      else if (i % 3 === 0) {
         word = "ping";
       }
       else if (i % 5 === 0) {
