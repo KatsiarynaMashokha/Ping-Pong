@@ -1,19 +1,24 @@
 // business logic
-//var result = [];
 var returnedNumber = function(number) {
   var result = [];
   if (number >= 1) {
     for (var i = 1; i <= number; i++) {
-      result.push(i);
+      var word = "";
+      if (i % 3 === 0) {
+        word = "ping";
+      }
+      else {
+        word = i;
+      }
+      result.push(word);
     }
       console.log(result);
   }
   else {
     alert("Please enter a number greater than 0!");
-    //return "";
     result = "";
   }
-
+return result;
 }
 
 
