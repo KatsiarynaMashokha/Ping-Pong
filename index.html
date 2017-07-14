@@ -6,26 +6,27 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
   </head>
   <body>
     <div class="container">
       <h1>Let's play a Ping-Pong game!</h1>
       <p>Here are the rules:</p>
       <ol>
-        <li>1. Enter any number greater than 1</li>
-        <li>2. If you number is divisible by 3, you will get ping</li>
-        <li>3. If you number is divisible by 5, you will get pong</li>
-        <li>4. If you number is divisible by 3 and 5, you will get pingpong</li>
+        <li><span class="numberList">1.</span> Enter any number greater than 1</li>
+        <li><span class="numberList">2.</span> If you number is divisible by 3, you will get "ping"</li>
+        <li><span class="numberList">3.</span> If you number is divisible by 5, you will get "pong"</li>
+        <li><span class="numberList">4.</span> If you number is divisible by 3 and 5, you will get "pingpong"</li>
       </ol>
       <form id="gameForm">
         <div class="form-group">
-          <label for="userInput">Enter your number</label>
-          <input id="number" class="form-control" type="number">
+          <label for="userInput">Enter your number:</label>
+          <input id="number" type="number">
         </div>
         <button type="submit" class="btn">Submit the number!</button>
       </form>
       <div id="result">
-        <p>Your answer is <span class="answer"</span></p>
+        <p>Your answer is: <span class="answer"</span></p>
       </div>
     </div>
   </body>
