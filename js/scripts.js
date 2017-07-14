@@ -16,13 +16,13 @@ var returnedNumber = function(number) {
       else {
         word = i;
       }
-      result.push(word);
+      result.push(word + "\n");
     }
       console.log(result);
   }
   else {
     alert("Please enter a number greater than 0!");
-    result = "";
+    result = "You look nice today. But seriously enter valid number.";
   }
 return result;
 }
