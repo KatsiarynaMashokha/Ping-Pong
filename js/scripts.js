@@ -1,12 +1,17 @@
 // business logic
-var result = "";
+//var result = [];
 var returnedNumber = function(number) {
+  var result = [];
   if (number >= 1) {
-    return number;
+    for (var i = 1; i <= number; i++) {
+      result.push(i);
+    }
+      console.log(result);
   }
   else {
     alert("Please enter a number greater than 0!");
-    return "";
+    //return "";
+    result = "";
   }
 
 }
