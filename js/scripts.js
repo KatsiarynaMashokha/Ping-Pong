@@ -27,8 +27,6 @@ var returnedNumber = function(number) {
 return result;
 }
 
-
-
 // user interface logic
 $(document).ready(function(){
   $("form#gameForm").submit(function(event){
