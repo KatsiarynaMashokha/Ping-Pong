@@ -7,6 +7,9 @@ var returnedNumber = function(number) {
       if (i % 3 === 0) {
         word = "ping";
       }
+      else if (i % 5 === 0) {
+        word = "pong";
+      }
       else {
         word = i;
       }
